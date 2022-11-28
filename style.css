@@ -1,0 +1,166 @@
+html, body {
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    margin: 0;
+    height: 100%;
+    color: #313638;
+
+}
+
+.wce {
+    background:url("images/tour1.jpg");
+    background-repeat: no-repeat;
+    padding: 80px 0 240px 0;
+    background-size:auto;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#main-logo{
+    max-width: 200px !important;
+    max-height: 100px !important;
+    margin-top: 0%;
+    margin-left: 40px;
+    align-self: flex-start;
+}
+
+@media (max-width: 768px) {
+    .wce{
+        padding: 80px 0 80px 0;
+  }
+}
+
+.activities {
+  display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+    background: #F1FAEE;
+    padding-top: 45px;
+    padding-bottom: 15px;   
+}
+
+@media (max-width: 768px) {
+    .activities {
+      display: block;
+      margin: auto;
+      padding-bottom: 30px;
+    }
+}
+
+.activity-info {
+    padding: 55px 85px 35px 85px;
+    flex-grow: 1;
+    text-align: center;
+    height: 340px;
+    width: 33%;
+
+}
+
+@media (max-width: 768px) {
+    .activity-info  {
+        padding: 55px 85px 35px 85px;
+        flex-grow: 1;
+        text-align: center;
+        height: auto;
+        width: auto;
+    }
+  }
+
+.info-text{
+    margin: auto;
+    padding: 8px 25px 18px 25px;
+}
+
+a.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+    background-color:#1D3557;
+    color: white;
+    padding: 15px 15px;
+    text-align: center;
+    font-size: 15px;
+    border-radius: 10px;
+    margin-top: 10px;
+    text-decoration: none;
+    flex-direction: row;
+    flex-wrap: nowrap;
+
+}
+
+.activity-img {
+    border-radius: 50%;
+    margin: auto;
+    width: 100px;
+    height: 100px;
+}
+
+.states{
+    margin-left: 40px;
+    margin-right: 40px;
+    position: relative;
+    max-width: 100%;
+    padding: 5px;
+    background: rgba(255, 255, 255, .2);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+}
+
+footer{
+    text-align: center;
+    background: #F1FAEE;
+    padding: 25px 10px;
+}
+
+#me {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#activity-header {
+    
+    background: #F1FAEE;
+    margin: 0;
+    text-align: center;
+    padding-top: 55px;
+}
+
+@media (max-width: 768px) {
+    #activity-header{
+
+      font-size: large;
+      margin: 0;
+    }
+  }
+
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+
+  .fa:hover {
+    opacity: 0.7;
+  }
+
+  
+  
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+
+  .fa-instagram {
+    background: #55ACEE;
+    color: white;
+  }
